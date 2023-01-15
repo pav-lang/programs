@@ -1,0 +1,9 @@
+
+enum E {
+    A,
+    B
+}
+
+int main() {
+    E e = E.A
+}

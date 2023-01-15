@@ -1,0 +1,36 @@
+
+int main() {
+    bool b = true
+
+    if (b) {
+        println("hello")
+    }
+
+    int a = 5
+
+    if a == 5 {
+        println("5")
+    } else if a < 5 {
+        println("< 5")
+    } else if a > 5 {
+        println("> 5")
+    } else {
+        println("else")
+    }
+
+    switch a {
+        case 5:
+            println("5")
+            break
+        case 4:
+            println("5")
+            break
+        case 3:
+        case 2:
+        case 1:
+            println("3 2 1")
+            break
+        default:
+            println("default")
+    }
+}

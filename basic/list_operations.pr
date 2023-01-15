@@ -1,0 +1,22 @@
+
+int main() {
+    int[] l = [1, 2, 3]
+
+    int[] l2 = l.map(v => v + 1)
+    
+    l2 = l.map(v => {
+        return v + 1
+    })
+
+    int[] l3 = l.filter(v => v == 2)
+
+    l3 = l.filter(v => {
+        return v == 2
+    })
+
+    int[] l4 = l.reduce(0, (v, acc) => acc + v)
+
+    l4 = l.reduce(0, (v, acc) => {
+        return acc + v
+    })
+}

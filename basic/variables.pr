@@ -1,0 +1,10 @@
+
+int main() {
+    int i = 1
+    long l = 1
+    float f = 0.1
+    double d = 0.1
+    bool b = true
+    char c = "a"
+    string s = "abc"
+}

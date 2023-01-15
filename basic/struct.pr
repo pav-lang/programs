@@ -1,0 +1,21 @@
+
+struct S {
+    int a
+    float b
+    bool c
+
+    constructor(int a, float b, bool c) {
+        // this.a = a constructor does this behind the scenes
+        // this.b = b constructor does this behind the scenes
+        if a > 5 {
+            c = true
+        }
+    }
+}
+
+int main() {
+    S s = S(1, 2.2, true)
+    s.a = 3
+
+    S s2 = S() // empty constructor is created by default
+}

@@ -1,0 +1,8 @@
+
+int main() {
+    int[] l = [1, 2, 3]
+    l[0] = 4
+
+    {int, float, bool} t = {1, 2.2, true}
+    t[0] = 3
+}

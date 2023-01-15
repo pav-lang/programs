@@ -1,0 +1,16 @@
+
+class C {
+    int a
+    int b
+
+    constructor(int a, int b) {}
+
+    int sum() {
+        return a + b
+    }
+}
+
+int main() {
+    C c = C(1, 2)
+    println(c.sum())
+}
