@@ -1,0 +1,10 @@
+
+int main() {
+    Option<int> o = None
+
+    Option<int> o1 = Some(1)
+
+    if not o1.is_none() {
+        println(o1.value())
+    }
+}
