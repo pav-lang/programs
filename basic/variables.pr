@@ -1,10 +1,9 @@
 
-int main() {
-    int i = 1
-    long l = 1
-    float f = 0.1
-    double d = 0.1
-    bool b = true
-    char c = "a"
-    string s = "abc"
-}
+func main()
+    i = 1
+    l = 1
+    f = 0.1
+    d = 0.1
+    b = true
+    c = "a"
+    s = "abc"

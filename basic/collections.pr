@@ -1,8 +1,28 @@
 
-int main() {
-    int[] l = [1, 2, 3]
+func main()
+    // array (fixed size)
+    l = [1, 2, 3]
     l[0] = 4
+    l2 = [0; 10] // ten zeros
 
-    {int, float, bool} t = {1, 2.2, true}
+    // tuple
+    t = {1, 2.2, true}
     t[0] = 3
-}
+
+    // list
+    l = list()
+    insert(l, 5)
+    insert(l, 1, 6)
+    println(size(l))
+
+    // stack
+    s = stack()
+
+    // queue
+    q = queue()
+
+    // map
+    m = map()
+    insert(m, 1, "a")
+    insert(m, 22, "b")
+    println(get(m, 22))

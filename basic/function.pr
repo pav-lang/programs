@@ -1,8 +1,6 @@
 
-int sum(int a, int b) {
+func sum(a, b)
     return a + b
-}
 
-int main() {
-    int c = sum(1, 2)
-}
+func main()
+    c = sum(1, 2)
