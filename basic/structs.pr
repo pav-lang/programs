@@ -4,8 +4,6 @@ struct S
     b = "a"
     c = false
 
-// TODO maybe class
-
 func main()
     S s = S(a: 1, c: true)
     s.a = 3
