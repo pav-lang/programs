@@ -1,0 +1,19 @@
+
+func main():
+    for i = 0 to 10:
+        println(i)
+
+    for i = 10 down to 0:
+        println(i)
+
+    for i = 0 to 10 by 2:
+        println(i)
+
+    l = [1, 2, 3]
+    for v in l:
+        println(v)
+
+    i = 0
+    while i < 10:
+        println(i)
+        i--

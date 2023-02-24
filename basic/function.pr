@@ -1,6 +1,6 @@
 
-func sum(a, b)
+func sum(a, b):
     return a + b
 
-func main()
+func main():
     c = sum(1, 2)

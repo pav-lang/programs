@@ -1,25 +1,25 @@
 
-func main()
+func main():
     b = true
 
-    if b
+    if b:
         println("hello")
 
-    if b and not b
+    if b and not b:
         println("b and not b")
 
-    if b or b
+    if b or b:
         println("b or b")
 
     a = 5
 
-    if a == 5
+    if a == 5:
         println("5")
-    else if a < 5
+    else if a < 5:
         println("< 5")
-    else if a > 5
+    else if a > 5:
         println("> 5")
-    else if a % 2
+    else if a % 2:
         println("% 2")
-    else
+    else:
         println("else")

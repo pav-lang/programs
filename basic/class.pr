@@ -1,0 +1,24 @@
+
+class C:
+    private a = 0 
+    private b = "a"
+    private c = false
+
+    constructor(a, b):
+        this.a = a
+        this.b = b
+        this.c = true
+
+    func a_plus_1():
+        return this.a + 1
+
+    get_c():
+        return c
+
+    set_c(c):
+        this.c = c
+
+func main():
+    c = C(1, "c")
+    println(c.a_plus_1())
+    print(c.get_c())

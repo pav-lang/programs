@@ -1,5 +1,5 @@
 
-func main()
+func main():
     i = 1
     l = 1
     f = 0.1
