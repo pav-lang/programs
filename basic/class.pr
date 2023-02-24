@@ -12,10 +12,10 @@ class C:
     func a_plus_1():
         return this.a + 1
 
-    get_c():
+    func get_c():
         return c
 
-    set_c(c):
+    func set_c(c):
         this.c = c
 
 func main():
